@@ -1,0 +1,25 @@
+header{
+    @include flex1;
+    height: $heights*9;
+    .logo{
+        cursor: pointer;
+        img:hover{
+            transform: scale(1.3);
+        }
+        img{
+            height: $heights*7;
+            width: auto;
+            transition: all 0.3s;
+        }
+    }
+    .wts{
+        height: $heights*5;
+        width: $widths*5;
+    }
+}
+
+/* Titulos */
+.princ{
+    color: $col-tit;
+    font-family: 'Asap', sans-serif;
+}

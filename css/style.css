@@ -1,0 +1,23 @@
+/* Estilos del header y logos */
+header {
+  background-color: #a4c5cc50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px; }
+  header .logo {
+    cursor: pointer; }
+    header .logo img:hover {
+      transform: scale(1.3); }
+    header .logo img {
+      height: 70px;
+      width: auto;
+      transition: all 0.3s; }
+  header .wts {
+    height: 50px;
+    width: 50px; }
+
+/* Titulos */
+.princ {
+  color: #e38100;
+  font-family: 'Asap', sans-serif; }

@@ -1,0 +1,20 @@
+@mixin flex1 {
+    background-color: #a4c5cc50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

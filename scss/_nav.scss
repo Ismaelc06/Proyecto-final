@@ -1,0 +1,16 @@
+/* Efectos para el navegador */
+.navbar{
+    background-color: #0b0b8f;
+    @include flex2;
+    font-family: 'Asap', sans-serif;
+    li:hover{
+        transform: scale(1.1);
+    }
+    li a:hover{
+        color: $col-tit;
+    }
+    a{
+        font-size: 700;
+        color: white;
+    }
+}

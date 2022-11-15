@@ -25,3 +25,18 @@ header {
 .princ {
   color: #e38100;
   font-family: 'Asap', sans-serif; }
+
+/* Efectos para el navegador */
+.navbar {
+  background-color: #0b0b8f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Asap', sans-serif; }
+  .navbar li:hover {
+    transform: scale(1.1); }
+  .navbar li a:hover {
+    color: #e38100; }
+  .navbar a {
+    font-size: 700;
+    color: white; }

@@ -134,3 +134,35 @@ main {
         background-color: slategray;
         height: 45vh;
         width: 200px; }
+
+/* Estilo para el footer */
+footer {
+  background-color: #3c3c3c;
+  font-family: 'Asap', sans-serif;
+  padding: 15px;
+  display: grid;
+  grid-template-areas: "pie1 pie2 pie3"; }
+  footer .pie1 {
+    grid-area: pie1;
+    display: flex;
+    flex-direction: column; }
+  footer .pie2 {
+    grid-area: pie2;
+    display: flex;
+    flex-direction: column; }
+    footer .pie2 .lis {
+      color: #e38100; }
+      footer .pie2 .lis a {
+        color: white;
+        text-decoration: none; }
+  footer .pie3 {
+    grid-area: pie3;
+    display: flex;
+    flex-direction: column; }
+    footer .pie3 img {
+      width: 45px;
+      height: 45px;
+      margin-right: 10px; }
+
+/* Estilos para sobre nos */
+/* Medias queris*/

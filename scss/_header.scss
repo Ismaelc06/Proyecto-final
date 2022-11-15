@@ -1,6 +1,10 @@
+body{
+    margin: 8px;
+}
 header{
     @include flex1;
     height: $heights*9;
+    padding: $spacing 10%;
     .logo{
         cursor: pointer;
         img:hover{

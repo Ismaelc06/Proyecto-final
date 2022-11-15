@@ -18,3 +18,35 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+@mixin grdmodel {
+    margin: $marg*2;
+    height: $heights*22;
+    width: $widths*27;
+    border-radius: 5px;
+    box-shadow: 0 2 2 rgba(0, 0, 0, 2);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.15s;
+    border: solid;
+    border-color: rgb(80, 93, 106);
+}
+
+@mixin sobnos {
+    display: flex;
+    justify-content: row;
+    padding: $spacing*6;
+    align-items: center;
+    font-family: 'Asap', sans-serif;
+    margin-right:  $marg*5;   
+}
+
+@mixin effc {
+    border: 1px solid rgb(234, 137, 18);
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 2);
+}
+
+@mixin ft{
+    display: flex;
+    flex-direction: column; 
+}

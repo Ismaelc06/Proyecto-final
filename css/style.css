@@ -42,3 +42,95 @@ header {
   .navbar a {
     font-size: 700;
     color: white; }
+
+/* Efectos para el main */
+main {
+  padding: 10px;
+  display: grid;
+  grid-template-areas: "Novedades" "Carrusel" "Product2" "Product3" "Maps" "Maps1"; }
+  main .Novedades {
+    grid-area: Novedades; }
+    main .Novedades div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      main .Novedades div img {
+        margin: 10px;
+        height: 220px;
+        width: 270px;
+        border-radius: 5px;
+        box-shadow: 0 2 2 black;
+        overflow: hidden;
+        text-align: center;
+        transition: all 0.15s;
+        border: solid;
+        border-color: #505d6a; }
+      main .Novedades div img:hover {
+        border: 1px solid #ea8912;
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px black; }
+    main .Novedades .contt {
+      margin: 15px; }
+  main .Product2 {
+    grid-area: Product2; }
+    main .Product2 div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      main .Product2 div img {
+        margin: 10px;
+        height: 220px;
+        width: 270px;
+        border-radius: 5px;
+        box-shadow: 0 2 2 black;
+        overflow: hidden;
+        text-align: center;
+        transition: all 0.15s;
+        border: solid;
+        border-color: #505d6a; }
+      main .Product2 div img:hover {
+        border: 1px solid #ea8912;
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px black; }
+  main .Product3 {
+    grid-area: Product3; }
+    main .Product3 div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      main .Product3 div img {
+        margin: 10px;
+        height: 220px;
+        width: 270px;
+        border-radius: 5px;
+        box-shadow: 0 2 2 black;
+        overflow: hidden;
+        text-align: center;
+        transition: all 0.15s;
+        border: solid;
+        border-color: #505d6a; }
+      main .Product3 div img:hover {
+        border: 1px solid #ea8912;
+        transform: scale(1.1);
+        box-shadow: 0 12px 16px black; }
+  main .Maps {
+    grid-area: Maps; }
+  main .Maps1 {
+    grid-area: Maps1; }
+  main .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .carrusel .slide {
+      margin-top: 10px;
+      width: 300px; }
+      main .carrusel .slide img {
+        background-color: slategray;
+        height: 45vh;
+        width: 200px; }

@@ -5,6 +5,7 @@ header{
     @include flex1;
     height: $heights*9;
     padding: $spacing 10%;
+    margin-bottom: 5px;
     .logo{
         cursor: pointer;
         img:hover{

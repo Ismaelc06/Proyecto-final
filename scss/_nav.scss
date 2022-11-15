@@ -2,6 +2,7 @@
     background-color: #0b0b8f;
     @include flex2;
     font-family: 'Asap', sans-serif;
+    margin-bottom: $marg;
     li:hover{
         transform: scale(1.1);
     }

@@ -175,6 +175,25 @@ main {
     font-size: 50px;
     color: #e38100; }
 
+/* Estilo para el unete */
+.nego {
+  display: flex;
+  justify-content: center; }
+  .nego img {
+    height: 250px;
+    width: 450px;
+    margin-top: 35px;
+    margin-bottom: 35px; }
+
+.unirse {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .unirse .mb-3 input {
+    display: flex;
+    justify-content: center; }
+
 /* Estilo para el footer */
 footer {
   background-color: #3c3c3c;

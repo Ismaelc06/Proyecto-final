@@ -178,6 +178,8 @@ main {
 /* Estilo para el contacto */
 .contact {
   display: flex; }
+  .contact .maps {
+    margin-right: 30px; }
 
 /* Estilo para el footer */
 footer {

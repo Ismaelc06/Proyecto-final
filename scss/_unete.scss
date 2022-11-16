@@ -1,7 +1,16 @@
+.nego{
+    @include une;
+    .img{
+        height: $heights*25;
+        width: $widths*45;
+        margin-top: $marg*7;
+        margin-bottom: $marg*7;
+    }
+}
+
 .unirse{
-    width: $widths*25;
-    display: flex;
-    justify-content: center;
+    @include une;
+    flex-direction: column;
     align-items: center;
 
     .mb-3 input{

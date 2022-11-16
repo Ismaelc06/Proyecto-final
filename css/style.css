@@ -178,9 +178,11 @@ main {
 /* Estilo para el contacto */
 .contact {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin: 15px;
+  margin-bottom: 60px; }
   .contact .maps {
-    margin-right: 30px; }
+    text-align: center; }
 
 /* Estilo para el footer */
 footer {

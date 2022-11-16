@@ -245,3 +245,7 @@ footer {
 @media screen and (max-width: 800px) {
   .nos {
     flex-direction: column; } }
+
+@media screen and (max-width: 740px) {
+  .contact {
+    flex-direction: column; } }

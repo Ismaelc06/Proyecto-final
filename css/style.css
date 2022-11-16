@@ -177,7 +177,8 @@ main {
 
 /* Estilo para el contacto */
 .contact {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
   .contact .maps {
     margin-right: 30px; }
 

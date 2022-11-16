@@ -236,6 +236,9 @@ footer {
 
 @media screen and (max-width: 1024px) {
   main .descrip {
-    display: flex;
     flex-direction: column;
     align-items: center; } }
+
+@media screen and (max-width: 800px) {
+  .nos {
+    flex-direction: column; } }

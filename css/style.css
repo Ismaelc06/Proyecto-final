@@ -165,4 +165,19 @@ footer {
       margin-right: 10px; }
 
 /* Estilos para sobre nos */
+.nos {
+  display: flex;
+  justify-content: row;
+  padding: 30px;
+  align-items: center;
+  font-family: 'Asap', sans-serif;
+  margin-right: 25px; }
+  .nos .descrip img {
+    height: 450px;
+    width: 350px; }
+  .nos .descrip h2 {
+    justify-content: space-around;
+    font-size: 50px;
+    color: #e38100; }
+
 /* Medias queris*/

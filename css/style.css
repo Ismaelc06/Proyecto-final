@@ -146,10 +146,10 @@ main {
 
 /* Estilos para unete */
 .unirse {
-  width: 60;
+  width: 250px;
   justify-content: center;
   align-items: center; }
-  .unirse .input {
+  .unirse .mb-3 input {
     justify-content: center; }
 
 /* Estilos para sobre nos */

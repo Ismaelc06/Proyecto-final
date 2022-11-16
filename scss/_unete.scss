@@ -1,9 +1,9 @@
 .unirse{
-    width: 60;
+    width: $widths*25;
     justify-content: center;
     align-items: center;
 
-    .input{
+    .mb-3 input{
         justify-content: center;
     }
 

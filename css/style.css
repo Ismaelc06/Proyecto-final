@@ -47,7 +47,7 @@ header {
 main {
   padding: 10px;
   display: grid;
-  grid-template-areas: "Novedades" "Carrusel" "Product2" "Product3" "Maps" "Maps1"; }
+  grid-template-areas: "Novedades" "Carrusel" "Product2" "Product3"; }
   main .Novedades {
     grid-area: Novedades; }
     main .Novedades div {
@@ -128,10 +128,6 @@ main {
     main .Product3 .card {
       margin-right: 20px;
       margin-bottom: 20px; }
-  main .Maps {
-    grid-area: Maps; }
-  main .Maps1 {
-    grid-area: Maps1; }
   main .carrusel {
     display: flex;
     justify-content: center;

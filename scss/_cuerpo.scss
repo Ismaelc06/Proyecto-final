@@ -6,8 +6,6 @@ main{
     "Carrusel"
     "Product2"
     "Product3"
-    "Maps"
-    "Maps1"
     ;
     .Novedades{
         grid-area: Novedades;
@@ -63,13 +61,6 @@ main{
             margin-bottom: $marg*4;
         }
     }
-    .Maps {
-        grid-area: Maps;
-    }  
-    .Maps1 {
-        grid-area: Maps1;
-    }
-
     .carrusel{
         display: flex;
         justify-content: center;

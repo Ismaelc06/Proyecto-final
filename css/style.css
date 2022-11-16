@@ -74,7 +74,8 @@ main {
     main .Novedades .contt {
       margin: 15px; }
     main .Novedades .crd {
-      padding: 10px; }
+      margin-right: 10px;
+      margin-bottom: 10px; }
   main .Product2 {
     grid-area: Product2; }
     main .Product2 div {

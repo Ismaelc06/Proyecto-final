@@ -181,3 +181,33 @@ footer {
     color: #e38100; }
 
 /* Medias queris*/
+@media screen and (max-width: 1024px) {
+  footer {
+    display: grid;
+    grid-template-areas: "pie1" "pie2" "pie3"; }
+    footer .pie1 {
+      margin-bottom: 15px; }
+    footer .pie2 {
+      margin-bottom: 15px; } }
+
+@media screen and (max-width: 1024px) {
+  .header h1 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 5px; } }
+
+@media screen and (max-width: 1024px) {
+  .logo img {
+    height: 30px;
+    width: auto;
+    transition: all 0.3s; } }
+
+@media screen and (max-width: 1024px) {
+  .header a {
+    display: none; } }
+
+@media screen and (max-width: 1024px) {
+  main .descrip {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
